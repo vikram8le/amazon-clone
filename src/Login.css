@@ -1,0 +1,87 @@
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+    
+}
+
+.login_amazon_logo{
+    width: 100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.sign_in_text{
+    color: white;
+    font-size: 28px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.input{
+    color: brown;
+}
+
+.login_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.342) ;
+    border-color: rgba(165, 122, 42, 0.678);
+
+}
+
+.login_container > form > input {
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: black;
+    width: 135%;
+    color: #ffffff;
+
+}
+
+.login_container > form {
+    margin-bottom: 5px;
+    width: 217px;
+    margin-left:  -83px;
+
+}
+
+.login_container > p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+
+
+}
+
+.login_container > form > h5{
+    display: flex;
+    width: fit-content;
+}
+
+.sign_in_button{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 129, 22);
+    border-radius: 8px;
+    width: 50%;
+
+}
